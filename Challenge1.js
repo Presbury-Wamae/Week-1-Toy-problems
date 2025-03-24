@@ -1,7 +1,4 @@
 function getStudentGrade(marks){
-    // let marks = prompt("Enter student marks (0-100):");
-    // marks = parseInt(marks);
-
     if(isNaN(marks) || marks < 0 || marks > 100){
         console.log("Invalid input! Marks should be a number between 0 and 100.");
         return;
@@ -22,6 +19,6 @@ function getStudentGrade(marks){
     else {
         grade = "E";
     }
-    console.log(`The student's grade is: ${grade}`);
+    return `The student's grade is: ${grade}`;
 }
-getStudentGrade(102);
+console.log(getStudentGrade(48));
