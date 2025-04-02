@@ -10,16 +10,13 @@ console.log(myArray(array));
 
 // Staircase problem 
 
-let array2 = ["#"]
-
-function array2(array2){
-for(let i = "#"; i++){
-   return array2["#"]
-}
-
-console.log(array2)
-
-function staircase(){
-    for(let i = n;  )
-}
-
+function steps(n) {
+    for (let row = 0; row < n; row++) {
+      let stair = '';
+      for (let col = 0; col < n; col++) {
+        stair += (col <= row) ? '#' : ' ';
+      } 
+      console.log(stair);
+    }
+  }
+  
