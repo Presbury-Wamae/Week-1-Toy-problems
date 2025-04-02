@@ -5,19 +5,19 @@ function myArray(array){
     return array.sort((a, b) => (a - b)
     );
 }
-// console.log(myArray(array));
+console.log(myArray(array));
 
 
 // Staircase problem 
 
-// let array2 = ["#"]
+let array2 = ["#"]
 
-// function array2(array2){
-// for(let i = "#"; i++){
-//    return array2["#"]
-// }
+function array2(array2){
+for(let i = "#"; i++){
+   return array2["#"]
+}
 
-// console.log(array2)
+console.log(array2)
 
 function staircase(){
     for(let i = n;  )
