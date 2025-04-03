@@ -18,5 +18,4 @@ function checkSpeed(speed) {
         }
     }
 }
-checkSpeed(200);
 

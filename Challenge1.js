@@ -21,4 +21,21 @@ function getStudentGrade(marks){
     }
     return `The student's grade is: ${grade}`;
 }
-console.log(getStudentGrade(48));
+function calculateGrade() {
+    // Get user input
+    let marks = document.getElementById("marks").value;
+
+    // Convert input to a number
+    marks = Number(marks);
+
+    // Call getStudentGrade function
+    let result = getStudentGrade(marks);
+
+    // Display result on the page
+    document.getElementById("gradeResult").innerText = result;
+}
+document.getElementById("marks").addEventListener("keypress", function (event){
+    if(event.key === "Enter"){
+        calculateGrade();
+    }
+});
