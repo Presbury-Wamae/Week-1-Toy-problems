@@ -1,6 +1,6 @@
 body {
     font-family: 'Arial', sans-serif;
-    background: linear-gradient(135deg, #ff9a9e, #fad0c4);
+    background: linear-gradient(135deg, #007bff, #0056b3);
     color: #fff;
     text-align: center;
     padding: 20px;
@@ -9,7 +9,7 @@ body {
 .container {
     max-width: 600px;
     margin: auto;
-    background: rgba(0, 0, 0, 0.6);
+    background: rgba(0, 0, 50, 0.8);
     padding: 20px;
     border-radius: 15px;
     box-shadow: 0 0 10px rgba(255, 255, 255, 0.3);
@@ -22,13 +22,13 @@ h1 {
 
 @keyframes glow {
     from { text-shadow: 0 0 10px #fff; }
-    to { text-shadow: 0 0 20px #ff6b81; }
+    to { text-shadow: 0 0 20px #00c3ff; }
 }
 
 .section {
     margin: 20px 0;
     padding: 15px;
-    background: rgba(255, 255, 255, 0.2);
+    background: rgba(0, 0, 100, 0.6);
     border-radius: 10px;
 }
 
@@ -42,23 +42,24 @@ input, button {
 
 input {
     width: 80%;
-    background: #fff;
+    background: #e0f0ff;
     color: #000;
 }
 
 button {
-    background: #ff6b81;
+    background: #00a2ff;
     color: white;
     cursor: pointer;
     transition: 0.3s;
 }
 
 button:hover {
-    background: #ff4757;
+    background: #0805c0;
     transform: scale(1.05);
 }
 
 p {
     font-size: 1.2em;
     margin-top: 10px;
+    color: #e0f7ff;
 }
