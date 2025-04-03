@@ -32,8 +32,13 @@ function calculateSpeed(){
     // Display result on the page
     document.getElementById("speedResult").innerText = result
 }
+
+// Event listener for Enter key press
 document.getElementById("speed").addEventListener("keypress", function (event){
     if(event.key === "Enter"){
         calculateSpeed();
     }
 });
+
+// Event listener for button click
+document.getElementById("calculateButton").addEventListener("click", calculateSpeed);
