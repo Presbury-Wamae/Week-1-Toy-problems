@@ -19,9 +19,17 @@ function checkSpeed(speed) {
     }
 }
 function calculateSpeed(){
+    
+    // Get user input
     let speed = document.getElementById("speed").value
+
+    // Convert input to a number
     speed = Number(speed)
+
+    // Call getStudentGrade function
     let result = checkSpeed(speed)
+
+    // Display result on the page
     document.getElementById("speedResult").innerText = result
 }
 document.getElementById("speed").addEventListener("keypress", function (event){
