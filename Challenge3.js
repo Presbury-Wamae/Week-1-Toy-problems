@@ -20,6 +20,7 @@ function netSalary(basicSalary, benefits){
     }
 
     let SHIF = grossSalary * 0.0275;
+    
 
     let NSSF;
     if (grossSalary <= 8000){
