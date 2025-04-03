@@ -18,4 +18,14 @@ function checkSpeed(speed) {
         }
     }
 }
-
+function calculateSpeed(){
+    let speed = document.getElementById("speed").value
+    speed = Number(speed)
+    let result = checkSpeed(speed)
+    document.getElementById("speedResult").innerText = result
+}
+document.getElementById("speed").addEventListener("keypress", function (event){
+    if(event.key === "Enter"){
+        calculateSpeed();
+    }
+});
